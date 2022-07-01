@@ -8,6 +8,9 @@ This ecommerce website is generated using [strapi-ecommerce-template](https://gi
 git clone https://github.com/fsefidabi/next-strapi-ecommerce.git
 cd next-strapi-ecommerce
 
+# create "strapi_ecommerce_template" postgres database
+create database strapi_ecommerce_template;
+
 # start back-end project
 cd backend
 npm install
