@@ -30,7 +30,9 @@ const ProductPage = ({ product }) => {
           <h4 className="mt-1 font-semibold text-lg leading-tight truncate text-gray-700">
             {product.attributes.title} - ${product.attributes.price}
           </h4>
-          <div className="mt-1 text-gray-600">{product.attributes.description}</div>
+          <div className="mt-1 text-gray-600">
+            {product.attributes.description}
+          </div>
         </div>
 
         {product.attributes.status === "published" ? (

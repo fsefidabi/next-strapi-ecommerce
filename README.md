@@ -8,14 +8,14 @@ This ecommerce website is generated using [strapi-ecommerce-template](https://gi
 git clone https://github.com/fsefidabi/next-strapi-ecommerce.git
 cd next-strapi-ecommerce
 
-# start front-end project
-cd frontend
+# start back-end project
+cd backend
 npm install
 npm run build
 npm run start
 
-# start back-end project
-cd backend
+# start front-end project
+cd ../frontend
 npm install
 npm run build
 npm run start
